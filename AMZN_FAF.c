@@ -18,11 +18,11 @@ typedef struct
 
 Features to implement: 
 
--authentication
--delivery status 
+-authentication a change
+-delivery status ++
 -store data into an array 
 -case switch menu(order number 1-10 style)
--update records 
+-update records +++
 -add a new record 
 
 */
