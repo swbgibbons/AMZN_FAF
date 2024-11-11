@@ -15,6 +15,20 @@ typedef struct
 } Client;
 
 /*
+
+Features to implement: 
+
+-authentication
+-delivery status 
+-store data into an array 
+-case switch menu(order number 1-10 style)
+-update records 
+-add a new record 
+
+*/
+
+
+/*
 Data must be consistent with formatting. 
 Luis Arredondo, 793 Houston St, 75054, 972-783-6457, In Transit
 
@@ -72,6 +86,54 @@ int main()
     char ClientParser[200] = {};
     char Delimiter = ", ";
     StrTok(ClientParser, Delimiter);
+
+
+      int choice;
+    do {
+        printf("\nMenu:\n");
+        printf("1. Change Address\n");
+        printf("2. Change Delivery Status\n");
+        printf("3. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1: {
+               
+                break;
+            }
+            case 2: {
+               
+                break;
+            }
+            case 3: {
+
+                break;
+            }
+            case 4: {
+
+                break;
+            }
+            case 5: {
+
+                break;
+            }
+            case 6: {
+
+                break;
+            }
+            case 7: {
+
+                break;
+            }
+            case 8:
+                printf("Exiting...\n");
+                break;
+            default:
+                printf("Invalid choice. Please try again.\n");
+                break;
+        }
+    } while (choice != 6);
 
     
     
